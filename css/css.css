@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+
+
+}
+header{
+  
+    background-color: rgb(255, 255, 255);
+    background-image: url("../image/front03.jpg");
+    background-color: black;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid white;
+    padding: 10px;
+
+    margin-top: 20px;
+    border: 7px solid rgb(8, 206, 255);
+
+}
+/*all time fav*/
+/*///////////////////////////////////////////////////////////////////*/
+h1{
+    position: absolute;
+    font-family: 'Rock Salt', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 400%;
+    margin-top: 320px;
+    margin-left: 0;
+   
+}
+/*top5*/
+/*///////////////////////////////////////////////////////////////////*/
+h2 {
+    margin-top: 400px;
+    margin-bottom: 380px;
+    font-family: 'Jomolhari', serif;
+    text-transform: uppercase;
+    color:white;
+    font-size: 300%;
+}
+
+/*album naam*/
+/*///////////////////////////////////////////////////////////////////*/
+h3{
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size:650%;
+    margin-left: 0;
+    margin-top: 0px;
+    color:rgba(0, 0, 0, 0.089);
+}
+
+main{
+    background-color:rgba(219, 153, 20, 0.993);
+    padding-top:50px; 
+
+    border: 6px solid yellow;
+}
+h4{
+    font-size: 500%;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    line-height: 70px;
+    color:rgb(209, 49, 49);
+
+}
+
+/*Links*/
+/*///////////////////////////////////////////////////////////////////*/
+
+.badge-primary{
+    color: white;
+    background-color: rgb(5, 5, 5);
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.row>div{
+    border: 2px solid red;
+    left: 0;
+}
+
+/*position*/
+/*///////////////////////////////////////////////////////////////////*/
+
+.foto1{
+    margin-left: 10px;
+    width: 100%;
+
+}
+
+.foto2{
+    width: 200%;
+}
+
+
+/*Footer*/
+/*///////////////////////////////////////////////////////////////////*/
+
+.logo{
+    width: 7%;
+    float: right;
+    margin-top: 30px;
+
+}
+
+.instagram{
+    width: 2%;
+    float: right;
+    margin-top: 50px;
+
+}
+
+h5{
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 120%;
+    margin-top: 10px;
+
+    right: 40px;
+}
+
+footer{
+    margin-bottom: 50px;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+

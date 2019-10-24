@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+
+	background-color:rgb(221, 148, 11);
+}
+header{
+  
+	background-color:rgb(221, 148, 11);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    margin-top: 20px;
+	z-index: -3;
+
+
+}
+
+.voor01{
+	position:absolute;
+	top: 20px;
+	right: 90px;
+	z-index: 0;
+	width: 550px;
+}
+
+.texthead{
+	position:absolute;
+	top: 400px;
+	right: -172px;
+	font-family: 'VT323', monospace;
+	font-size: 140%;
+	background-color: white;
+	padding: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	transform: rotate(270deg);
+	z-index: 1;
+}
+/*HEADER*/
+/*///////////////////////////////////////////////////////////////////*/
+h1{
+    position: absolute;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 700%;
+    margin-top: 320px;
+    margin-left: 100px;
+	z-index: 4;
+   
+}
+
+h2 {
+    margin-top: 600px;
+    margin-bottom: 380px;
+    font-family: 'Jomolhari', serif;
+    text-transform: uppercase;
+    color:white;
+    font-size: 300%;
+	margin-left: 100px;
+	z-index: 5;
+}
+
+a.nav-link{
+	list-style: none;
+	background-color:rgb(221, 148, 11);
+	color: white;
+}
+
+
+
+li{
+	list-style: none;
+	color: white;
+	
+
+}
+
+li.nav-item active{
+	color: white;
+}
+
+#navbarDropdown{
+	color: white;
+	background-color:rgb(221, 148, 11);
+}
+
+nav.navbar navbar-expand-lg navbar-light bg-light{
+	background-color:rgb(221, 148, 11);
+}
+
+.btn-outline-success{
+	color: white;
+	border: 1px solid white;
+}
+
+nav{
+	background-color:rgb(221, 148, 11);
+}
+
+/*MAIN*/
+/*///////////////////////////////////////////////////////////////////*/
+.background{
+	background-color: rgb(59, 57, 53);
+}
+h3{
+	color:rgb(221, 148, 11);
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size:1050%;
+    margin-left: 0;
+	margin-top: -10px;
+	line-height: 150px;
+		
+}
+
+.textalbum{
+	font-size: 800%;
+	color: white;
+}
+
+.foto01{
+	position:absolute;
+	float: right;
+	margin-top: -100px;
+	right:-100px;
+	
+}
+
+li.album{
+	list-style:decimal;
+	padding-bottom: 10px;
+	font-size: 200%;
+	margin-left: 100px;
+}
+
+.platen{
+	margin-bottom: 100px;
+	margin-left:50px;
+	width:100%;
+}
+
+.btn-secondary{
+	background-color:rgb(221, 148, 11);
+	margin-top: 20px;
+	 
+	
+}
+a.link{
+	color: white;
+}
+
+
+
+
+
+
+
+
+.row>div{
+    border: 2px solid red;
+    left: 0;
+}
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
